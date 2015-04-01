@@ -3,9 +3,9 @@
 Wraps PySide windows in a custom viewport so they can be launched within MODO.
 
 ## Installation
-1. Hit Download Zip on the right
+1. Hit Download ZIP on the right
 2. From MODO go to System > Open Content Folder
-3. Extract the contents of the zip to the Kits folder, should be Kits/pysideLaunch
+3. Extract the contents of the zip to the Kits folder, should be Kits/pysideLaunch-master
 
 ## Script Setup
 - All scripts run with pyside.launch must have a main method that returns an instance of QWidget derivative
