@@ -73,8 +73,7 @@ class ShowCustomView(lxu.command.BasicCommand):
 		# turns /foo/bar/someScript.py into someScript
 		moduleName, ext = os.path.splitext(os.path.basename(scriptPath))
 
-		lx.eval('layout.createOrClose randomCookie pysideTestLayout \
-			width:600 height:600 class:normal title:{{{0}}}'.format(moduleName))
+		lx.eval('layout.createOrClose pysideLaunchCookie pysideLaunchLayout width:600 height:600 class:normal title:{{{0}}}'.format(moduleName))
 
 lx.bless(PysideWrapper, 'PysideWrapper')
 lx.bless(ShowCustomView, 'pyside.launch')
